@@ -30,8 +30,8 @@ const Header = () => {
                 }}
             >
                 <Image
-                    src="/images/backdrop.jpg"
-                    layout="fill"
+                    src="/images/netflix.jpg"
+                    fill
                     objectFit="cover"
                     alt="netflix background"
                 />
