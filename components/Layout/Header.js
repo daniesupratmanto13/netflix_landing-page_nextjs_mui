@@ -1,16 +1,86 @@
 import React from 'react'
+
+// next
 import Image from 'next/image'
+
 // mui
+import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
+import Select from '@mui/material/Select';
 import TextField from '@mui/material/TextField'
+import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
-import Button from '@mui/material/Button'
+import MenuItem from '@mui/material/MenuItem'
+import { grey } from '@mui/material/colors';
+
 
 const Header = () => {
     return (
-        <Box>
+        <Box
+            sx={{
+                borderBottom: `8px solid ${grey[900]}`
+            }}
+        >
+            <AppBar
+                position="fixed"
+                elevation={0}
+                sx={{
+                    backgroundColor: "transparent",
+                    padding: "20px 20px"
+                }}
+            >
+                <Toolbar>
+                    <Grid
+                        alignItems="center"
+                        container
+                        spacing={3}
+                    >
+                        <Grid item xs>
+                            <Image
+                                priority
+                                src="/images/netflix.svg"
+                                height={45}
+                                width={163}
+                                layout="intrinsic"
+                                alt="netflix logo"
+                            />
+                        </Grid>
+                        <Grid item xs="auto">
+                            <Select
+                                name="lang"
+                                defaultValue="EN"
+                                size="small"
+                                variant="outlined"
+                                sx={{
+                                    borderWidth: "2px",
+                                    borderStyle: "solid",
+                                    borderColor: "common.white",
+                                    color: "common.white",
+                                    "& .MuiSelect-icon": {
+                                        color: "common.white"
+                                    },
+                                    "& .MuiOutlinedInput-notchedOutline": {
+                                        border: "none"
+                                    }
+                                }}
+                            >
+                                <MenuItem value="ID">Bahasa Indonesia</MenuItem>
+                                <MenuItem value="EN">English</MenuItem>
+                            </Select>
+                        </Grid>
+                        <Grid item xs="auto">
+                            <Button
+                                variant="contained"
+                            >
+                                Sign In
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </Toolbar>
+            </AppBar>
             <Box
                 sx={{
                     position: 'relative',
