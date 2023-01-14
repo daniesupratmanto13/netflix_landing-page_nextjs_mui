@@ -1,6 +1,4 @@
 import React from 'react'
-
-// next
 import Image from 'next/image'
 
 // mui
@@ -29,7 +27,7 @@ const Header = () => {
                 elevation={0}
                 sx={{
                     backgroundColor: "transparent",
-                    padding: "20px 20px"
+                    padding: 3
                 }}
             >
                 <Toolbar>

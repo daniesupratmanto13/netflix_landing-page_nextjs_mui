@@ -10,14 +10,32 @@ import BottomBorderBox from '../Wrapper/BottomBorder'
 
 const Features = () => {
     return (
-        <BottomBorderBox>
-            <Container maxWidth="lg">
+        <BottomBorderBox
+            sx={{
+                backgroundColor: 'common.black'
+            }}
+        >
+            <Container
+                maxWidth="lg"
+                sx={{ py: 4 }}
+            >
                 <Grid container alignItems="center">
                     <Grid item xs={12} md={6}>
-                        <Typography variant="h1" color="initial"></Typography>
+                        <Typography
+                            variant="h3"
+                            color="common.white"
+                            gutterBottom
+                        >
+                            Enjoy on your TV.
+                        </Typography>
+                        <Typography
+                            variant="h5"
+                            color="common.white"
+                        >
+                            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                        </Typography>
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <Typography variant="h1" color="initial"></Typography>
                     </Grid>
                 </Grid>
             </Container>
