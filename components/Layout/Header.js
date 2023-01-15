@@ -14,14 +14,13 @@ import Typography from '@mui/material/Typography'
 import MenuItem from '@mui/material/MenuItem'
 import { grey } from '@mui/material/colors';
 
+// component
+import BottomBorderBox from '../Wrapper/BottomBorder';
+
 
 const Header = () => {
     return (
-        <Box
-            sx={{
-                borderBottom: `8px solid ${grey[900]}`
-            }}
-        >
+        <BottomBorderBox>
             <AppBar
                 position="absolute"
                 elevation={0}
@@ -166,7 +165,7 @@ const Header = () => {
                     </Grid>
                 </Container>
             </Box>
-        </Box>
+        </BottomBorderBox>
     )
 }
 
