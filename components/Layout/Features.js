@@ -58,14 +58,26 @@ const Features = () => {
                             <Desc desc="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more." />
                         </Grid>
                         <Grid item xs={12} md={6}>
-                            <Box>
-                                <Image
-                                    src='/images/tv.png'
-                                    width={640}
-                                    height={480}
-                                    layout='responsive'
-                                    alt='tv'
-                                />
+                            <Box sx={{ position: 'relative' }}>
+                                <Box sx={{ position: 'relative' }}>
+                                    <Image
+                                        src='/images/tv.png'
+                                        width={640}
+                                        height={480}
+                                        layout='responsive'
+                                        alt='tv'
+                                    />
+                                </Box>
+                                <Box>
+                                    <video
+                                        src="/videos/tv.m4v"
+                                        autoPlay
+                                        playsInline
+                                        muted
+                                        loop
+                                    >
+                                    </video>
+                                </Box>
                             </Box>
                         </Grid>
                     </Grid>
@@ -97,7 +109,7 @@ const Features = () => {
                                     width={640}
                                     height={480}
                                     layout='responsive'
-                                    alt='tv'
+                                    alt='mobile'
                                 />
                             </Box>
                         </Grid>
@@ -138,7 +150,7 @@ const Features = () => {
                                     width={640}
                                     height={480}
                                     layout='responsive'
-                                    alt='tv'
+                                    alt='device'
                                 />
                             </Box>
                         </Grid>
@@ -171,7 +183,7 @@ const Features = () => {
                                     width={640}
                                     height={480}
                                     layout='responsive'
-                                    alt='tv'
+                                    alt='kids'
                                 />
                             </Box>
                         </Grid>
