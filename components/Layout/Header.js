@@ -23,7 +23,7 @@ const Header = () => {
             }}
         >
             <AppBar
-                position="fixed"
+                position="absolute"
                 elevation={0}
                 sx={{
                     backgroundColor: "transparent",
