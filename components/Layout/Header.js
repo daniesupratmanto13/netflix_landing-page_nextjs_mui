@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 
 // mui
 import AppBar from '@mui/material/AppBar'
@@ -105,7 +105,7 @@ const Header = () => {
             >
                 <Image
                     src="/images/netflix.jpg"
-                    fill
+                    layout='fill'
                     objectFit="cover"
                     alt="netflix background"
                 />

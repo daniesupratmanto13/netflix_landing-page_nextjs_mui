@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 
 // mui
 import Box from '@mui/material/Box'
@@ -59,7 +59,7 @@ const Features = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Box sx={{ position: 'relative' }}>
-                                <Box sx={{ position: 'relative' }}>
+                                <Box sx={{ position: 'relative', zIndex: 2 }}>
                                     <Image
                                         src='/images/tv.png'
                                         width={640}
@@ -68,9 +68,20 @@ const Features = () => {
                                         alt='tv'
                                     />
                                 </Box>
-                                <Box>
+                                <Box sx={{
+                                    position: 'absolute',
+                                    width: '100%',
+                                    height: '100%',
+                                    top: '48%',
+                                    left: '50%',
+                                    maxWidth: '73.5%',
+                                    maHeight: '56%',
+                                    transform: 'translate(-50%, -50%)',
+                                }}
+                                >
                                     <video
                                         src="/videos/tv.m4v"
+                                        style={{ height: '100%', width: '100%' }}
                                         autoPlay
                                         playsInline
                                         muted
