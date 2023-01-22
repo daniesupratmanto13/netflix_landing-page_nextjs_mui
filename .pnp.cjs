@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:11.10.5"],\
             ["@emotion/styled", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:11.10.5"],\
+            ["@mui/icons-material", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:5.11.0"],\
             ["@mui/material", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:5.11.3"],\
             ["@next/font", "npm:13.1.1"],\
             ["eslint", "npm:8.31.0"],\
@@ -461,6 +462,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@mui-core-downloads-tracker-npm-5.11.3-09e84ccce9-0bc6ad3e2b.zip/node_modules/@mui/core-downloads-tracker/",\
           "packageDependencies": [\
             ["@mui/core-downloads-tracker", "npm:5.11.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@mui/icons-material", [\
+        ["npm:5.11.0", {\
+          "packageLocation": "./.yarn/cache/@mui-icons-material-npm-5.11.0-2a69112f17-764c1185b3.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "npm:5.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:5.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/@mui-icons-material-virtual-40122c80ab/0/cache/@mui-icons-material-npm-5.11.0-2a69112f17-764c1185b3.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:5.11.0"],\
+            ["@babel/runtime", "npm:7.20.7"],\
+            ["@mui/material", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:5.11.3"],\
+            ["@types/mui__material", null],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@mui/material",\
+            "@types/mui__material",\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3027,6 +3055,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["netflix_landing-page_mui", "workspace:."],\
             ["@emotion/react", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:11.10.5"],\
             ["@emotion/styled", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:11.10.5"],\
+            ["@mui/icons-material", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:5.11.0"],\
             ["@mui/material", "virtual:318e111114382829e5c527e4ec4511994da1649a42a3bdbdb58ff2de4bf325c5de06fd2508839d033cab1ffba1c97c4c73c51f888486fa908eb3d7c8e469eae6#npm:5.11.3"],\
             ["@next/font", "npm:13.1.1"],\
             ["eslint", "npm:8.31.0"],\
