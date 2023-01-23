@@ -17,6 +17,7 @@ import Typography from '@mui/material/Typography'
 import BottomBorderBox from '../Wrapper/BottomBorder';
 
 
+
 const HeaderNetflix = () => {
     return (
         <BottomBorderBox>

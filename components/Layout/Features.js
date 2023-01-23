@@ -12,6 +12,7 @@ import { blue, grey } from '@mui/material/colors'
 import BottomBorderBox from '../Wrapper/BottomBorder'
 
 
+
 const Title = ({ title }) => {
     return (
         <Typography

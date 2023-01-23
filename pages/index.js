@@ -3,7 +3,9 @@ import Head from 'next/head'
 // components
 import FAQ from '../components/Layout/FAQ'
 import Features from '../components/Layout/Features'
+import Footer from '../components/Layout/Footer'
 import HeaderNetflix from '../components/Layout/HeaderNetflix'
+
 
 
 export default function Home() {
@@ -17,6 +19,7 @@ export default function Home() {
       <HeaderNetflix />
       <Features />
       <FAQ />
+      <Footer />
     </>
   )
 }
