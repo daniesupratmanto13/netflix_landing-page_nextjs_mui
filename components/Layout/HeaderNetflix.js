@@ -8,7 +8,7 @@ import Button from '@mui/material/Button'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import MenuItem from '@mui/material/MenuItem'
-import Select from '@mui/material/Select';
+import Select from '@mui/material/Select'
 import TextField from '@mui/material/TextField'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
@@ -18,7 +18,8 @@ import BottomBorderBox from '../Wrapper/BottomBorder';
 
 
 
-const HeaderNetflix = () => {
+const HeaderNetflix = ({ openModal }) => {
+
     return (
         <BottomBorderBox>
             <AppBar
@@ -71,6 +72,7 @@ const HeaderNetflix = () => {
                         <Grid item xs="auto">
                             <Button
                                 variant="contained"
+                                onClick={openModal}
                             >
                                 Sign In
                             </Button>

@@ -10,6 +10,9 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography'
 import { grey } from '@mui/material/colors'
 
+// components
+import TypographyGreyAnchor from '../Wrapper/TypographyGrey'
+
 
 
 const Footer = () => {
@@ -17,7 +20,7 @@ const Footer = () => {
         <Box
             sx={{
                 backgroundColor: 'common.black',
-                color: grey[600]
+                color: grey[600],
             }}
         >
 
@@ -37,69 +40,69 @@ const Footer = () => {
                 >
                     <Grid item xs={6} md={3}>
                         <Stack spacing={2}>
-                            <Typography variant='caption' component='a' href='#'>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 FAQ
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Investor Relations
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Ways to Watch
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Corporate Information
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Only on Netflix
-                            </Typography>
+                            </TypographyGreyAnchor>
                         </Stack>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <Stack spacing={2}>
-                            <Typography variant='caption' component='a' href='#'>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Help Center
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Jobs
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Terms of Use
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Contact Us
-                            </Typography>
+                            </TypographyGreyAnchor>
                         </Stack>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <Stack spacing={2}>
-                            <Typography variant='caption' component='a' href='#'>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Account
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Redeem Gift Cards
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Privacy
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Speed Test
-                            </Typography>
+                            </TypographyGreyAnchor>
                         </Stack>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <Stack spacing={2}>
-                            <Typography variant='caption' component='a' href='#'>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Media Center
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Buy Gift Cards
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Cookie Preferences
-                            </Typography>
-                            <Typography variant='caption' component='a' href='#'>
+                            </TypographyGreyAnchor>
+                            <TypographyGreyAnchor variant='caption' component='a' href='#'>
                                 Legal Notices
-                            </Typography>
+                            </TypographyGreyAnchor>
                         </Stack>
                     </Grid>
                 </Grid>
