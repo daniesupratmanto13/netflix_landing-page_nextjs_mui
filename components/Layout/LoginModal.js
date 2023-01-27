@@ -25,11 +25,6 @@ const LoginModal = ({ open, closeModal }) => {
         <Modal
             open={open}
             onClose={closeModal}
-            sx={{
-                '& .MuiModal-root': {
-                    mt: 9
-                },
-            }}
         >
             <Box sx={style}>
                 modal
