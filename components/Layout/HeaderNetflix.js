@@ -1,20 +1,17 @@
-import React from 'react'
+import React from 'react';
 import Image from "next/legacy/image";
 
 // mui
-import AppBar from '@mui/material/AppBar'
-import Box from '@mui/material/Box'
-import Button from '@mui/material/Button'
-import Container from '@mui/material/Container'
-import Grid from '@mui/material/Grid'
-import MenuItem from '@mui/material/MenuItem'
-import Select from '@mui/material/Select'
-import TextField from '@mui/material/TextField'
-import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
-
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
+import TextField from '@mui/material/TextField';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
 
 // components
 import BottomBorderBox from '../Wrapper/BottomBorder';
@@ -83,51 +80,6 @@ const HeaderNetflix = ({ openModal }) => {
                     </Grid>
                 </Toolbar>
             </AppBar>
-            {/* <AppBar
-                position="static"
-                elevation={0}
-                sx={{
-                    backgroundColor: "transparent",
-                    padding: 3
-                }}
-            >
-                <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        News
-                    </Typography>
-                    <Select
-                        name="lang"
-                        defaultValue="EN"
-                        size="small"
-                        variant="outlined"
-                        sx={{
-                            borderWidth: "2px",
-                            borderStyle: "solid",
-                            borderColor: "common.white",
-                            color: "common.white",
-                            "& .MuiSelect-icon": {
-                                color: "common.white"
-                            },
-                            "& .MuiOutlinedInput-notchedOutline": {
-                                border: "none"
-                            }
-                        }}
-                    >
-                        <MenuItem value="ID">Bahasa Indonesia</MenuItem>
-                        <MenuItem value="EN">English</MenuItem>
-                    </Select>
-                    <Button color="inherit" onClick={openModal}>Login</Button>
-                </Toolbar>
-            </AppBar> */}
             <Box
                 sx={{
                     position: 'relative',

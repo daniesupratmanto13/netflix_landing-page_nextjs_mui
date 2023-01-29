@@ -1,6 +1,6 @@
-import Typography from '@mui/material/Typography'
-import { styled } from '@mui/material/styles'
-import { grey } from '@mui/material/colors'
+import Typography from '@mui/material/Typography';
+import { grey } from '@mui/material/colors';
+import { styled } from '@mui/material/styles';
 
 
 const TypographyGreyAnchor = styled(Typography)(() => ({

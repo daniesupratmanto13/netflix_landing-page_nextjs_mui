@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import { useState } from 'react'
+import Head from 'next/head';
+import { useState } from 'react';
 
 // components
-import FAQ from '../components/Layout/FAQ'
-import Features from '../components/Layout/Features'
-import Footer from '../components/Layout/Footer'
-import HeaderNetflix from '../components/Layout/HeaderNetflix'
-import LoginModal from '../components/Layout/LoginModal'
+import FAQ from '../components/Layout/FAQ';
+import Features from '../components/Layout/Features';
+import Footer from '../components/Layout/Footer';
+import HeaderNetflix from '../components/Layout/HeaderNetflix';
+import LoginModal from '../components/Layout/LoginModal';
 
 
 

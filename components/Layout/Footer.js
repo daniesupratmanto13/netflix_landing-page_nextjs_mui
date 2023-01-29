@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 // mui
-import Box from '@mui/material/Box'
-import Container from '@mui/material/Container'
-import Grid from '@mui/material/Grid'
-import MenuItem from '@mui/material/MenuItem'
+import Box from '@mui/material/Box';;
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography'
-import { grey } from '@mui/material/colors'
+import Typography from '@mui/material/Typography';
+import { grey } from '@mui/material/colors';
 
 // components
-import TypographyGreyAnchor from '../Wrapper/TypographyGrey'
+import TypographyGreyAnchor from '../Wrapper/TypographyGrey';
 
 
 

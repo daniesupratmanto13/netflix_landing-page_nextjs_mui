@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import Image from "next/legacy/image";
 
 // mui
-import Box from '@mui/material/Box'
-import Container from '@mui/material/Container'
-import Grid from '@mui/material/Grid'
-import Typography from '@mui/material/Typography'
-import { blue, grey } from '@mui/material/colors'
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+import { blue, grey } from '@mui/material/colors';
 
 // components
-import BottomBorderBox from '../Wrapper/BottomBorder'
+import BottomBorderBox from '../Wrapper/BottomBorder';
 
 
 
