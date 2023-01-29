@@ -13,6 +13,7 @@ import InputAdornment from '@mui/material/InputAdornment';
 import Modal from '@mui/material/Modal';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
+import { grey, red } from '@mui/material/colors';
 
 // icons
 import Visibility from '@mui/icons-material/Visibility';
@@ -26,8 +27,9 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 400,
-    bgcolor: 'common.white',
+    bgcolor: 'rgba(0, 0, 0, 0.8)',
     boxShadow: 24,
+    color: 'common.white',
     p: 4,
 };
 
@@ -51,8 +53,11 @@ const LoginModal = ({ open, closeModal }) => {
         >
             <Box sx={style}>
                 <Typography
-                    variant='h5'
-                    sx={{ mb: 4 }}
+                    variant='h4'
+                    sx={{
+                        mb: 4,
+                        fontWeight: 'bold'
+                    }}
                 >
                     Sign In
                 </Typography>
@@ -70,8 +75,11 @@ const LoginModal = ({ open, closeModal }) => {
                                 name="email"
                                 label="email"
                                 variant="filled"
+                                sx={{
+                                    background: grey[100],
+                                }}
                             />
-                            <FormHelperText>
+                            <FormHelperText sx={{ color: grey[50] }}>
                                 Please enter a valid email or phone number.
                             </FormHelperText>
                         </FormControl>
@@ -98,8 +106,11 @@ const LoginModal = ({ open, closeModal }) => {
                                             </IconButton>
                                         </InputAdornment>
                                 }}
+                                sx={{
+                                    background: grey[100],
+                                }}
                             />
-                            <FormHelperText>
+                            <FormHelperText sx={{ color: grey[50] }}>
                                 Your password must contain between 4 and 60 characters.
                             </FormHelperText>
                         </FormControl>
@@ -120,7 +131,14 @@ const LoginModal = ({ open, closeModal }) => {
                     sx={{ mb: 2 }}
                 >
                     <Box>
-                        <Checkbox />
+                        <Checkbox
+                            sx={{
+                                color: red[800],
+                                '&.Mui-checked': {
+                                    color: red[600],
+                                },
+                            }}
+                        />
                         <Typography variant='caption'>
                             Remember me?
                         </Typography>
@@ -130,7 +148,7 @@ const LoginModal = ({ open, closeModal }) => {
                         component='a'
                         href="#"
                         sx={{
-                            color: 'common.black',
+                            color: 'common.white',
                             textDecoration: 'none',
                         }}
                     >
@@ -154,7 +172,7 @@ const LoginModal = ({ open, closeModal }) => {
                         component='a'
                         href='#'
                         sx={{
-                            color: 'common.black',
+                            color: 'common.white',
                             textDecoration: 'none',
                             ml: 1
                         }}
@@ -183,7 +201,8 @@ const LoginModal = ({ open, closeModal }) => {
                         variant='caption'
                         component='span'
                         sx={{
-                            lineHeight: '8px'
+                            lineHeight: '8px',
+                            mr: 1
                         }}
                     >
                         This page is protected by Google reCAPTCHA to ensure you're not a bot.
@@ -192,6 +211,7 @@ const LoginModal = ({ open, closeModal }) => {
                         variant='caption'
                         component='a'
                         href='#'
+                        sx={{ color: red[300] }}
                     >
                         Learn more.
                     </Typography>
